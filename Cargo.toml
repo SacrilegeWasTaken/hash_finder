@@ -1,0 +1,13 @@
+[package]
+name = "hash_finder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10.2"
+clap = { version = "3.0", features = ["derive"] }
+rayon = "1.5"
+
+[profile.release]
+lto = true      #GGOOOGOGOGOGOGOGOG
+opt-level = 3   #GOGOGOGO
