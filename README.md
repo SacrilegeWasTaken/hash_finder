@@ -14,12 +14,12 @@ cargo build --release
 
 ***Run the Program:***
 ```sh
-./target/release/hash_finder -N 3 -F 6
+./target/release/hash_finder -n 3 -f 6
 ```
 
 ***Or for the run with release flag:***
 ```sh
-cargo run --release -- -N 3 -F 6
+cargo run --release -- -n 3 -f 6
 ```
 
 # Flag Explanation:
