@@ -23,5 +23,5 @@ cargo run --release -- -n 3 -f 6
 ```
 
 # Flag Explanation:
-- The -N flag specifies how many trailing zeros the hash should have.
-- The -F flag specifies how many results to find before stopping.
+- The -n flag specifies how many trailing zeros the hash should have.
+- The -f flag specifies how many results to find before stopping.
